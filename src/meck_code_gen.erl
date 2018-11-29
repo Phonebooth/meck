@@ -24,6 +24,8 @@
 %% Exported to be accessible from generated modules.
 -export([exec/4]).
 
+-compile(nowarn_deprecated_function).
+
 %%%============================================================================
 %%% Definitions
 %%%============================================================================
